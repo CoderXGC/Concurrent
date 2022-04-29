@@ -17,7 +17,7 @@ package com.ylesb.concurrent.test8;
  * @createTime   : [2022/4/28 16:11]
  * @updateUser   : [XuGuangchao]
  * @updateTime   : [2022/4/28 16:11]
- * @updateRemark : [描述说明本次修改内容] 
+ * @updateRemark : [线程优先级]
  */
 
 public class test8 {

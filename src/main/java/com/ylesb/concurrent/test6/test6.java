@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
  * @createTime   : [2022/4/28 16:09]
  * @updateUser   : [XuGuangchao]
  * @updateTime   : [2022/4/28 16:09]
- * @updateRemark : [描述说明本次修改内容] 
+ * @updateRemark : [线程状态]
  */
 @Slf4j
 public class test6 {
