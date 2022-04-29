@@ -40,5 +40,7 @@ public class InterruptedFromal {
         log.debug("interrupt");
         t1.interrupt();
     }
+
+
 }
 
