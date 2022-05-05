@@ -37,7 +37,7 @@
 下时间片最小约为 15 毫秒）分给不同的程序使用，只是由于 cpu 在线程间（时间片很短）的切换非常快，人类感
 觉是同时运行的 。一般会将这种线程轮流使用 CPU 的做法称为并发（concurrent）
 
-![1583408729416](https://gitee.com/gu_chun_bo/picture/raw/master/images/20200305194534-433138.png)
+![1583408729416](https://gitee.com/coderxgc/concurrent/raw/master/images/20200305194534-433138.png)
 
 ### 并行
 
