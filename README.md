@@ -1257,7 +1257,7 @@ public static void method2() {
 
 代码：Test22.java    Test23.java这是带超时时间的
 
-![1594473284105](assets/1594473284105.png)
+![1594473284105](https://gitee.com/coderxgc/concurrent/raw/master/doc/images/1594473284105.png)
 
 Test23.java中jiang'dao'de关于超时的增强，在join(long millis) 的源码中得到了体现：
 
@@ -1293,7 +1293,7 @@ Test23.java中jiang'dao'de关于超时的增强，在join(long millis) 的源码
 
 多任务版 GuardedObject图中 Futures 就好比居民楼一层的信箱（每个信箱有房间编号），左侧的 t0，t2，t4 就好比等待邮件的居民，右侧的 t1，t3，t5 就好比邮递员如果需要在多个类之间使用 GuardedObject 对象，作为参数传递不是很方便，因此设计一个用来解耦的中间类，这样不仅能够解耦【结果等待者】和【结果生产者】，还能够同时支持多个任务的管理。和生产者消费者模式的区别就是：这个生产者和消费者之间是一一对应的关系，但是生产者消费者模式并不是。rpc框架的调用中就使用到了这种模式。  Test24.java
 
-![1594518049426](assets/1594518049426.png)
+![1594518049426](https://gitee.com/coderxgc/concurrent/raw/master/doc/images/1594518049426.png)
 
 
 
@@ -1311,7 +1311,7 @@ Test23.java中jiang'dao'de关于超时的增强，在join(long millis) 的源码
 
 “异步”的意思就是生产者产生消息之后消息没有被立刻消费，而“同步模式”中，消息在产生之后被立刻消费了。
 
-![1594524622020](assets/1594524622020.png)
+![1594524622020](https://gitee.com/coderxgc/concurrent/raw/master/doc/images/1594524622020.png)
 
 我们写一个线程间通信的消息队列，要注意区别，像rabbit mq等消息框架是进程间通信的。
 
@@ -1365,7 +1365,7 @@ LockSupport.unpark;
 3. Thread_0 恢复运行
 4. 设置 _counter 为 0
 
-![1594532057205](assets/1594532057205.png)
+![1594532057205](https://gitee.com/coderxgc/concurrent/raw/master/doc/images/1594532057205.png)
 
 #### 先调用upark再调用park的过程
 
@@ -1497,7 +1497,7 @@ Java stack information for the threads listed above:
 
 ### 4.9.3 哲学家就餐问题
 
-![1594553609905](assets/1594553609905.png)
+![1594553609905](https://gitee.com/coderxgc/concurrent/raw/master/doc/images/1594553609905.png)
 
 有五位哲学家，围坐在圆桌旁。
 他们只做两件事，思考和吃饭，思考一会吃口饭，吃完饭后接着思考。
@@ -1515,7 +1515,7 @@ Java stack information for the threads listed above:
 
 顺序加锁的解决方案
 
-![1594558499871](assets/1594558499871.png)
+![1594558499871](https://gitee.com/coderxgc/concurrent/raw/master/doc/images/1594558499871.png)
 
 
 
