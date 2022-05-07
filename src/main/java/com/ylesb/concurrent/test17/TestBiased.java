@@ -25,11 +25,13 @@ import org.openjdk.jol.info.ClassLayout;
  */
 @Slf4j
 public class TestBiased {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
     Dog dog = new Dog();
 
         Object o = new Object();
        System.out.println(ClassLayout.parseInstance(o).toPrintable());
+       Thread.sleep(4000);
+        System.out.println(ClassLayout.parseInstance(new Dog()).toPrintable());
     log.info("1");
     }
 }
